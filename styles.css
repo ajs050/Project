@@ -94,6 +94,7 @@ footer {
   }
   .value {
     padding: 8px;
+    width: 50%;
   }
   .value__title {
     display: flex;
@@ -120,7 +121,7 @@ footer {
   }
   .quality__row {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   padding: 24px 8px;
   }
   .quality__img--wrapper {
@@ -129,4 +130,15 @@ footer {
   }
   .quality__info {
     width: 50%;
+    padding: 0 24px;
+  }
+  .wrapper {
+    display: flex;
+    padding: 48px 0;
+  }
+  ul {
+    padding-left: 0;
+  }
+  .py-5  {
+    padding-bottom: 0 !important;
   }
